@@ -9,7 +9,7 @@ sections:
         type: TypistTextElement
       - delayBefore: 0
         text: world!
-        lineBreak: false
+        lineBreak: true
         type: TypistTextElement
     type: TypistSection
   - type: HeroSection
