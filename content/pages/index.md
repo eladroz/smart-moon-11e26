@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - elements:
       - delayBefore: 0
-        text: 'This is a text. '
+        text: 'Hello '
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
