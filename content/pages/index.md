@@ -8,7 +8,7 @@ sections:
         lineBreak: false
         type: TypistTextElement
       - delayBefore: 0
-        text: 'This is a text. '
+        text: world!
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
