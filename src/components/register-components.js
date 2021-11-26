@@ -1,14 +1,13 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
+import typistComponents from 'stackbit-typist';
 
 registerComponents({
-    // Register all Stackbit components
-    ...componentsMap
-
-    // Override any static or dynamic component,
-    // or register your own dynamic component.
+    ...componentsMap,
+    ...typistComponents
 });
+
 
 /**
  * README
