@@ -15,7 +15,7 @@ sections:
         text: Is this tool for developers only?
         lineBreak: false
         type: TypistTextElement
-      - delayBefore: 0
+      - delayBefore: 700
         count: 16
         type: TypistBackspaceElement
     type: TypistSection
