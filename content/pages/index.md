@@ -27,7 +27,7 @@ sections:
         lineBreak: false
         type: TypistTextElement
       - delayBefore: 700
-        text: 'This is a text. '
+        text: ' THE END!'
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
