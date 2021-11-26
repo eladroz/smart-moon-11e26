@@ -19,7 +19,7 @@ sections:
         count: 16
         type: TypistBackspaceElement
       - delayBefore: 0
-        text: developers AND content editors?
+        text: developers AND content editors? (NOA)
         lineBreak: true
         type: TypistTextElement
       - delayBefore: 500
