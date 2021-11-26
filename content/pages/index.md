@@ -19,7 +19,7 @@ sections:
         count: 16
         type: TypistBackspaceElement
       - delayBefore: 0
-        text: 'This is a text. '
+        text: developers AND content editors?
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
