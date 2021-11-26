@@ -16,7 +16,7 @@ sections:
         lineBreak: false
         type: TypistTextElement
       - delayBefore: 1200
-        count: 16
+        count: 20
         type: TypistBackspaceElement
       - delayBefore: 0
         text: developers AND content editors?
