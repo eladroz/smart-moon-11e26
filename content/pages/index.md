@@ -23,7 +23,7 @@ sections:
         lineBreak: true
         type: TypistTextElement
       - delayBefore: 500
-        text: 'This is a text. '
+        text: Yes it is!
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
