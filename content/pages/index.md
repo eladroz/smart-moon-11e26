@@ -26,7 +26,7 @@ sections:
         text: Yes it is!
         lineBreak: false
         type: TypistTextElement
-      - delayBefore: 0
+      - delayBefore: 700
         text: 'This is a text. '
         lineBreak: false
         type: TypistTextElement
