@@ -20,7 +20,7 @@ sections:
         type: TypistBackspaceElement
       - delayBefore: 0
         text: developers AND content editors?
-        lineBreak: false
+        lineBreak: true
         type: TypistTextElement
     type: TypistSection
   - type: HeroSection
