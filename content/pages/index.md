@@ -4,7 +4,7 @@ layout: PageLayout
 sections:
   - elements:
       - delayBefore: 0
-        text: 'Hello there nice '
+        text: 'Hello '
         lineBreak: false
         type: TypistTextElement
       - delayBefore: 1000
