@@ -12,7 +12,7 @@ sections:
         lineBreak: true
         type: TypistTextElement
       - delayBefore: 0
-        text: Is this tool for developers
+        text: Is this tool for developers only?
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
