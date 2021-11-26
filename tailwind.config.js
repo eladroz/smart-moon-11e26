@@ -3,6 +3,16 @@ const themeStyle = require('./content/data/style.json');
 
 module.exports = {
     presets: [require('@stackbit/components/styles/tailwind.default.config.js')],
+    purge: {
+        enabled: false,
+        content: [
+            './src/**/*.{js,ts,jsx,tsx}',
+            './node_modules/@stackbit/components/src/{base,layouts,components,utils}/**/*.{js,ts,jsx,tsx}',
+            './node_modules/stackbit-typist/dist/components/**/*.{js,ts,jsx,tsx}',
+            './content/**/*'
+        ],
+        safelist: ['colors-a', 'colors-b', 'colors-c', 'colors-d', 'colors-e', 'colors-f', 'colors-g', 'colors-h', 'colors-i']
+    },
     theme: {
         extend: {
             colors: {
@@ -21,8 +31,8 @@ module.exports = {
                 'on-complementary-alt': themeStyle.onComplementaryAlt
             },
             fontFamily: {
-                'sans': ['Poppins', 'sans-serif'],
-                'serif': ['"Noto Serif"', 'serif']
+                sans: ['Poppins', 'sans-serif'],
+                serif: ['"Noto Serif"', 'serif']
             }
         }
     },
@@ -81,30 +91,30 @@ module.exports = {
                     textTransform: themeStyle.h6.case
                 }
             }),
-            addComponents({
-                '.sb-component-button-primary': {
-                    borderRadius: theme(`borderRadius.${themeStyle.buttonPrimary.borderRadius}`),
-                    boxShadow: theme(`boxShadow.${themeStyle.buttonPrimary.shadow}`),
-                    fontWeight: themeStyle.buttonPrimary.weight,
-                    letterSpacing: theme(`letterSpacing.${themeStyle.buttonPrimary.letterSpacing}`),
-                    padding: `${themeStyle.buttonPrimary.verticalPadding}px ${themeStyle.buttonPrimary.horizontalPadding}px`,
-                    textTransform: themeStyle.buttonPrimary.case
-                },
-                '.sb-component-button-secondary': {
-                    borderRadius: theme(`borderRadius.${themeStyle.buttonSecondary.borderRadius}`),
-                    borderStyle: theme(`borderStyle.${themeStyle.buttonSecondary.borderStyle}`),
-                    boxShadow: theme(`boxShadow.${themeStyle.buttonSecondary.shadow}`),
-                    fontWeight: themeStyle.buttonSecondary.weight,
-                    letterSpacing: theme(`letterSpacing.${themeStyle.buttonSecondary.letterSpacing}`),
-                    padding: `${themeStyle.buttonSecondary.verticalPadding}px ${themeStyle.buttonSecondary.horizontalPadding}px`,
-                    textTransform: themeStyle.buttonSecondary.case
-                },
-                '.sb-component-link': {
-                    fontWeight: themeStyle.link.weight,
-                    letterSpacing: theme(`letterSpacing.${themeStyle.link.letterSpacing}`),
-                    textTransform: themeStyle.link.case
-                }
-            });
+                addComponents({
+                    '.sb-component-button-primary': {
+                        borderRadius: theme(`borderRadius.${themeStyle.buttonPrimary.borderRadius}`),
+                        boxShadow: theme(`boxShadow.${themeStyle.buttonPrimary.shadow}`),
+                        fontWeight: themeStyle.buttonPrimary.weight,
+                        letterSpacing: theme(`letterSpacing.${themeStyle.buttonPrimary.letterSpacing}`),
+                        padding: `${themeStyle.buttonPrimary.verticalPadding}px ${themeStyle.buttonPrimary.horizontalPadding}px`,
+                        textTransform: themeStyle.buttonPrimary.case
+                    },
+                    '.sb-component-button-secondary': {
+                        borderRadius: theme(`borderRadius.${themeStyle.buttonSecondary.borderRadius}`),
+                        borderStyle: theme(`borderStyle.${themeStyle.buttonSecondary.borderStyle}`),
+                        boxShadow: theme(`boxShadow.${themeStyle.buttonSecondary.shadow}`),
+                        fontWeight: themeStyle.buttonSecondary.weight,
+                        letterSpacing: theme(`letterSpacing.${themeStyle.buttonSecondary.letterSpacing}`),
+                        padding: `${themeStyle.buttonSecondary.verticalPadding}px ${themeStyle.buttonSecondary.horizontalPadding}px`,
+                        textTransform: themeStyle.buttonSecondary.case
+                    },
+                    '.sb-component-link': {
+                        fontWeight: themeStyle.link.weight,
+                        letterSpacing: theme(`letterSpacing.${themeStyle.link.letterSpacing}`),
+                        textTransform: themeStyle.link.case
+                    }
+                });
         })
     ]
 };
