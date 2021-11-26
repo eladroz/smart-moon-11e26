@@ -16,7 +16,7 @@ sections:
         lineBreak: false
         type: TypistTextElement
       - delayBefore: 0
-        count: 1
+        count: 16
         type: TypistBackspaceElement
     type: TypistSection
   - type: HeroSection
