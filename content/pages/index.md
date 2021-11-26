@@ -7,7 +7,7 @@ sections:
         text: 'Hello '
         lineBreak: false
         type: TypistTextElement
-      - delayBefore: 1400
+      - delayBefore: 1100
         text: world!
         lineBreak: true
         type: TypistTextElement
