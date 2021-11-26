@@ -26,10 +26,6 @@ sections:
         text: Yes it is!
         lineBreak: false
         type: TypistTextElement
-      - delayBefore: 1000
-        text: 'This is a text. '
-        lineBreak: false
-        type: TypistTextElement
     type: TypistSection
   - type: HeroSection
     elementId: homepage-hero-1
