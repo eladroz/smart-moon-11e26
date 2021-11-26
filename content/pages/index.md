@@ -15,6 +15,9 @@ sections:
         text: Is this tool for developers only?
         lineBreak: false
         type: TypistTextElement
+      - delayBefore: 0
+        count: 1
+        type: TypistBackspaceElement
     type: TypistSection
   - type: HeroSection
     elementId: homepage-hero-1
