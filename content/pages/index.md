@@ -31,7 +31,7 @@ sections:
         lineBreak: false
         type: TypistTextElement
       - delayBefore: 0
-        text: 'This is a text. '
+        text: 'Just for ROB :-)'
         lineBreak: false
         type: TypistTextElement
     type: TypistSection
