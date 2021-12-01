@@ -30,7 +30,7 @@ sections:
         text: ' THE END!'
         lineBreak: false
         type: TypistTextElement
-      - delayBefore: 0
+      - delayBefore: 800
         text: 'Just for ROB :-)'
         lineBreak: false
         type: TypistTextElement
