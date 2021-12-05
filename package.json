@@ -15,6 +15,7 @@
         "analyze:browser": "BUNDLE_ANALYZE=browser next build"
     },
     "dependencies": {
+    "@stackbit/devto-pull": "^0.5.1",
         "@stackbit/cli": "^0.1.14",
         "@stackbit/components": "^0.1.54",
         "axios": "^0.18.0",
