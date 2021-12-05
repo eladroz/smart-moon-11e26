@@ -28,8 +28,7 @@
         "sourcebit-source-filesystem": "^0.1.6",
         "sourcebit-target-next": "^0.7.1",
         "tailwindcss": "^2.2.4",
-        "stackbit-typist": "^1.0.2",
-        "@stackbit/stackbit-factory": "0.3.55"
+        "stackbit-typist": "^1.0.2"
     },
     "devDependencies": {
         "@next/bundle-analyzer": "^11.1.2",
