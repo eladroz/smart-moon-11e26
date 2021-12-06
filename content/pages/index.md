@@ -2,39 +2,6 @@
 title: Home
 layout: PageLayout
 sections:
-  - elements:
-      - delayBefore: 0
-        text: 'Hello '
-        lineBreak: false
-        type: TypistTextElement
-      - delayBefore: 1000
-        text: world!
-        lineBreak: true
-        type: TypistTextElement
-      - delayBefore: 0
-        text: Is this tool for developers only?
-        lineBreak: false
-        type: TypistTextElement
-      - delayBefore: 1200
-        count: 16
-        type: TypistBackspaceElement
-      - delayBefore: 0
-        text: developers AND content editors?
-        lineBreak: true
-        type: TypistTextElement
-      - delayBefore: 500
-        text: Yes it is!
-        lineBreak: false
-        type: TypistTextElement
-      - delayBefore: 700
-        text: ' THE END!'
-        lineBreak: false
-        type: TypistTextElement
-      - delayBefore: 800
-        text: 'Just for ROB :-)'
-        lineBreak: false
-        type: TypistTextElement
-    type: TypistSection
   - type: HeroSection
     elementId: homepage-hero-1
     colors: colors-a
